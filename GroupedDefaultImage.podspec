@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint DefaultGroupedTable.podspec' to ensure this is a
+# Be sure to run `pod lib lint GroupedDefaultImage.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "DefaultGroupedTable"
+  s.name             = "GroupedDefaultImage"
   s.version          = "0.1.0"
   s.summary          = "Default images for your iOS app that use a grouped table view."
 
@@ -20,11 +20,11 @@ Pod::Spec.new do |s|
 					   This gives you default images that allow the app to run at the correct resolution on all devices. It was created to simplify creating apps that require standard default images and overcoming common problems that can occur when naming the files.
                        DESC
 
-  s.homepage         = "https://github.com/malhal/DefaultGroupedTable"
+  s.homepage         = "https://github.com/malhal/GroupedDefaultImage"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Malcolm Hall" => "malhal@users.noreply.github.com" }
-  s.source           = { :git => "https://github.com/malhal/DefaultGroupedTable.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/malhal/GroupedDefaultImage.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/malhal'
 
   #s.platform     = :ios, '7.0'
@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
 
   #s.source_files = 'Pod/Classes/**/*'
   #s.resource_bundles = {
-  #  'DefaultGroupedTable' => ['Pod/Assets/*.png']
+  #  'GroupedDefaultImage' => ['Pod/Assets/*.png']
   #}
-  s.resources = 'DefaultGroupedTable/*'
+  s.resources = 'GroupedDefaultImage/*'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
